@@ -1,0 +1,137 @@
+---
+title: "Yuchen Tian"
+author: Yuchen Tian
+date: "`r Sys.Date()`"
+output:
+  pagedown::html_resume:
+    # Thanks to Eric R. Scott for this tip! 
+    self_contained: false
+knit: pagedown::chrome_print   
+
+---
+
+Aside
+================================================================================
+
+
+![Data](data_icon.png){width=30%}
+<!-- ![Data](`r here::here("data_icon.png")`) -->
+
+
+
+Contact Info {#contact}
+--------------------------------------------------------------------------------
+
+- <i class="fa fa-envelope"></i>Yuchen.Tian@tufts.edu
+- <i class="fa fa-github"></i> [github.com/TravisTian/](https://github.com/TravisTian/)
+- <i class="fa fa-phone"></i> +1 8052595834
+
+
+Skills {#skills}
+--------------------------------------------------------------------------------
+
+
+- Performing **data analysis**, with a focus on engineering models
+
+- Wrote production-level **R/Python/Stata/SQL/SAS** 
+
+- **Machine Learning** on cloud platforms (AWS)
+
+
+
+
+Disclaimer {#disclaimer}
+--------------------------------------------------------------------------------
+
+<!--This resume was made with the R package [**pagedown**](https://github.com/rstudio/pagedown).-->
+
+Last updated on `r Sys.Date()`.
+
+
+
+Main
+================================================================================
+
+Yuchen Tian {#title}
+--------------------------------------------------------------------------------
+
+### Data Analytics student seeking Spring 2022 internship
+
+
+Education {data-icon=graduation-cap data-concise=true}
+--------------------------------------------------------------------------------
+
+### Tufts University
+
+MS Candidate in Data Analysis
+
+Medford, MA
+
+2021--Current
+
+
+### Undergraduate University
+
+B.S. in Statistics and Data Science
+
+Goleta, CA
+
+2017--2020
+
+
+
+Research Experience {data-icon=flask}
+--------------------------------------------------------------------------------
+
+###  Research on Lung Cancer Detection Improvement based on CNN
+*Remote Part-time Assistant*
+
+Remote, MIT
+
+Aug.-Sep.2020
+
+- Applied Python to establish a 3D Convolutional Neural Network(CNN) for a lung nodule detector to predict
+the possibility of disease based on CT images 
+- Responsible for the preliminary data preprocessing and training set creation, constructed a U-net network to
+segment the image of lung area; built the training method and network structure of 3D CNN
+
+
+
+Selected Project Experience {data-icon=chalkboard-teacher}
+--------------------------------------------------------------------------------
+
+### Analysis of Survival Rates Following Hospital Admission for Acute Myocardial Infarction (R) 
+
+University of California Santa Barbara
+
+Goleta, CA
+
+Nov.- Dec.2020
+
+<!--::: concise-->
+- Cleaned data and handled with missing values based on “WHAS500” data set; applied BIC Model selection
+from Cox Proportional-Hazards Model to find the optimal covariates to fit the model.
+- Conducted time-varying analysis of selected variables; figured out optimal Cox Proportional-Hazard model
+with time varying covariates of survival data.
+- Put forward suggestions of avoiding cardiogenic shock or having early diagnosis and treatment to prevent risk
+<!--:::-->
+
+
+
+
+### Forecasting the Daily Highest Prices of Stocks base on RNN (Python)
+
+University of California Santa Barbara
+
+Goleta, CA
+
+Sep.2020
+
+- Processed data including cleaning NaN value, missing value, outlier value
+- Built and trained an LSTM network with Tensorflow to forecast the stock prices based on the gathered data in
+terms of minimum price, maximum price, opening price, closing price, trading volume, trading volume, etc.
+
+
+
+
+
